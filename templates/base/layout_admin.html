@@ -11,6 +11,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	    <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico')}}">
+	    <script src="{{ url_for('static',filename='js/main.js')}}"></script>
 
 	   	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
@@ -19,6 +20,7 @@
 	    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/admin.css')}}" />
 
 	</head>
+	<iframe id="iframesubmit" name="iframesubmit" src="" width="0" height="0" borderframe="0" style="display:none"></iframe>
 	{% block content %}
 	{% endblock %}
 </html>

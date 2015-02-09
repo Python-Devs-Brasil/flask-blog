@@ -20,7 +20,7 @@ DataBase's:
 3. `` python manage_flask.py db upgrade ``
 4. `` python start.py ``
 5. `` python server.py ``
-6. Open in your browser http://0.0.0.0:4242/
+6. Open in your browser http://localhost:4242/
 
 # Read more
 
@@ -28,6 +28,8 @@ DataBase's:
 * http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 * https://pythonhosted.org/Flask-Markdown/
 * http://flask.pocoo.org/docs/0.10/patterns/mongokit/
+* http://www.graphenedb.com/
+* https://mongolab.com/
 
 Obs: if you need a modules or framework's, run in terminal `` pip install -r requirements.txt ``
 
