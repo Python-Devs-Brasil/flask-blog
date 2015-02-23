@@ -182,7 +182,6 @@ h4, h5, h6 {
 h1 {
     font-size: 5rem;
     letter-spacing: -2px;
-    text-indent: -3px;
 }
 
 h2 {
@@ -588,7 +587,6 @@ margin on the iframe, cause it breaks stuff. */
 .subscribe-button:before {
     font-size: 9px;
     margin-right: 6px;
-    color: #ffffff;
 }
 
 /* Special styles when overlaid on an image*/
@@ -1682,4 +1680,21 @@ body:not(.post-template) .post-title {
         display: none;
     }
 
+}
+.btn-edit{
+    content: '\e00f';
+    font-size: 14px;
+    font-weight: normal;
+    border:1px solid rgb(232, 234, 235);
+    border-radius: 5px;
+    padding: 5px 14px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+    text-decoration: none;
+}
+.btn-edit:hover{
+    background-color: rgba(247, 247, 243, 1);
 }
